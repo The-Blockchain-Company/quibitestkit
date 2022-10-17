@@ -1,0 +1,9 @@
+join	setup.py	/^from os.path import join, dirname$/;"	i
+dirname	setup.py	/^from os.path import join, dirname$/;"	i
+setup	setup.py	/^from setuptools import setup, find_packages$/;"	i
+find_packages	setup.py	/^from setuptools import setup, find_packages$/;"	i
+install_requires	setup.py	/^install_requires = ($/;"	v
+excludes	setup.py	/^excludes = ($/;"	v
+version	setup.py	/^      version="0.1",$/;"	v
+packages	setup.py	/^      packages=find_packages(exclude=excludes),$/;"	v
+install_requires	setup.py	/^      install_requires=install_requires)$/;"	v
